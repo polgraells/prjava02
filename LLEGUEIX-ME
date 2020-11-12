@@ -1,0 +1,50 @@
+1) a) Crea una branca de nom branca00. Trobaràs informació de com fer-ho al primer enllaç de la
+documentació, dins de la secció "Creating a new branch".
+
+Git granch branca00
+
+b) Accedeix a a la branca00. Trobaràs informació de com fer-ho al primer enllaç de la documentació,
+dins de la secció "Switching Branches".
+
+Git checkout branca00
+
+c) Comprova des de l'interpret d'ordres l'estat del projecte i a quina branca et trobes
+
+Git status.
+En el apartat de branca ens dira que em canviat a la branca00..
+
+5.- Torna a la branca main del projecte. Comprova l'estat del projecte. Mostra l'historial de la branca main.
+Quina diferència hi ha amb l'historial de la branca branca00?.
+
+Per poder tornar a la branca main utilitzarem la comanda git checkout main.
+En aquest cas no ens mostra el commit del apartat de la branca00.
+
+6.- Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?
+No, no puc veure l’última línia afegida ja que em editat el fitxer des de la branca00 en menys de la
+branca del main. 
+
+7.- Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure
+l'última línia afegida?. Per què?.
+
+Si, si que podem veure el contingut de la línia afegida. Com he dit anteriormente em editat el fitxer des
+de branca00 per tant ens apareix el contigunt modificat des de aquesta branca.
+
+10.- Torna a la branca main. i realitza les següents accions:
+  a) Comprova el contingut del fitxer Prjava02.java amb geany.
+  b) Fusiona (merge) la branca branca00 amb la branca master. Trobaràs informació a la
+  documentació.
+
+Per poder fusionar la branca git merge branca00.
+
+12.-c)Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+
+Només s’ha actulitzat la branca main ja que hem fucionat les dos branques per tant els canvis es
+guarden amb la branca que em fucionat que en aquest cas és el main amb la branca00.
+
+14.-a) Un push de branca01 del dipòsit local al dipòsit remot.
+Git push -u origin branca01
+
+c) A quants commits de distància (commit ahead) està de la branca main?
+
+Està ha 1 commit de la branca main ja que anteriorment em fusionat el main amb branca00, si no
+l’haguéssim fusionat estaria a 2 commits.
